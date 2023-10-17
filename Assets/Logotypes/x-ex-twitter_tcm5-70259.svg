@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-labelledby="title" role="img">
+    <title id="title">X</title>
+    <defs>
+        <style>.cls-1,.cls-2{stroke-width:0px;}.cls-2{fill:#fff;}</style>
+    </defs>
+    <rect class="cls-2" x="3.4" y="4.7" width="18.1" height="16" />
+    <path class="cls-1"
+        d="m19,0H5C2.2,0,0,2.2,0,5v14c0,2.8,2.2,5,5,5h14c2.8,0,5-2.2,5-5V5c0-2.8-2.2-5-5-5Z" />
+    <path class="cls-2"
+        d="m16.66,4.33h2.48l-5.42,6.2,6.38,8.44h-5l-3.91-5.12-4.48,5.12h-2.48l5.8-6.63L3.9,4.33h5.12l3.54,4.68,4.09-4.68Zm-.87,13.15h1.38L8.28,5.73h-1.48l8.98,11.74Z" />
+</svg>

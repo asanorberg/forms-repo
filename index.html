@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sanchez">
+    <script src="https://kit.fontawesome.com/f33f2b1d53.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+      <div class="main-grid">
+        <div class="header">
+
+    <!--Top part of header-->
+          <div class="header-container-top">
+            <nav class="nav-left">
+              <div class="logotype">
+                <a href="#">
+                  <img
+                    class="site-header-logo"
+                    src="Assets/Logotypes/folksam-logo.svg"
+                    alt="logotyp"
+                  />
+                </div>
+                <a class="header-link" href="#">Privat</a>
+                <a class="header-link" href="#">Företag</a>
+    
+            </nav>
+
+              <nav class="nav-right">
+                <a class="nav-button" href="#">Sök <span><i class="fa-solid fa-magnifying-glass" style="color: #0075bc;"></i></span></a>
+                <a class="nav-button-dark" href="#">Logga in <span><i class="fa-solid fa-lock" style="color: #ffffff;"></i></span></a>
+                <a class="nav-button" href="#">Meny <span><i class="fa-solid fa-bars" style="color: #0075bc;"></i></span></a>
+                </nav>
+              </div>
+
+    <!--Bottom part of header-->
+          <div class="header-container-bottom">
+            <a href="#">Lediga jobb</a>
+            <a href="#">Att jobba här</a>
+            <a href="#">Yrken och karriärvägar</a>
+            <a href="#">Student</a>
+
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="breadcrumb-menu">
+            <nav class="breadcrumb">
+              <ol class="breadcrumb-items">
+                <li class="breadcrumb-item">
+                  <a href="#">Start</a>
+                  <i class="fa-solid fa-greater-than"></i>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">Lediga jobb</a>
+                  <i class="fa-solid fa-greater-than"></i>
+
+                </li>
+                <li class="breadcrumb-item-current">
+                  <span>Lediga jobb</span>
+
+                </li>
+              </ol>
+            </nav>
+          </div>
+
+    <!--Hero section-->
+          <div class="hero-section">
+            <img src="./Assets/Folksam_staff.png" alt="Folksam staff">
+          </div>
+
+            <h1>Frontendutvecklare</h1>
+            <p>Stockholm</p>
+
+    <!--Form section-->
+                <form action="https://httpbin.org/anything" method="post" class="form-section">
+                <div class="linkedin-notice">
+                    <p>
+                      Genom en knapptryckning nedan kan du importera information från
+                      LinkedIn och anpassa den i din ansökan
+                    </p>
+                    <button id="apply-linkedin"><span><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> Apply with Linkedin</span></button>
+                  </div>
+              <div class="form-group form-item-email">
+                <label for="prof-email"
+                  >E-postadress
+                  <span style="color: red">*</span>
+                </label>
+                <input type="email" name="prof-email" required />
+              </div>
+
+              <div class="form-group form-item-email-confirm">
+                <label for="prof-email"
+                  >Bekräfta e-postadress
+                  <span style="color: red">*</span>
+                </label>
+                <input type="email" name="prof-email" required />
+              </div>
+              <div class="form-group-stack form-item-name">
+                <div class="form-group">
+                  <label for="first-name"
+                    >Förnamn
+                    <span style="color: red">*</span>
+                  </label>
+                  <input type="text" name="first-name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="last-name"
+                    >Efternamn
+                    <span style="color: red">*</span>
+                  </label>
+                  <input type="text" name="last-name" required />
+                </div>
+
+            </div>
+                <div class="form-group-stack form-item-birthyear">
+                  <div class="form-group">
+                    <label for="birthyear"
+                      >Födelseår <span style="color: red">*</span></label
+                    >
+                    <select name="birthyear" id="birthyear" required>
+                      <option value selected="selected">Födelseår</option>
+                      <option value="2017">2017</option>
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                      <option value="2024">2024</option>
+                    </select>
+                  </div>
+                </div>
+              
+
+              <div class="form-group form-item-phone">
+                <label for="prof-phone"
+                  >Mobil
+                  <span style="color: red">*</span>
+                </label>
+                <input type="text" name="prof-phone" required />
+              </div>
+
+              <div class="form-group form-item-address">
+                <label for="prof-address"
+                  >Adress
+                  <span style="color: red">*</span>
+                </label>
+                <input type="text" name="prof-address" required />
+              </div>
+
+              <div class="form-group form-item-postcode">
+                <label for="prof-postcode"
+                  >Postnummer
+                  <span style="color: red">*</span>
+                </label>
+                <input type="text" name="prof-postcode" required />
+              </div>
+
+              <div class="form-group form-item-region">
+                <label for="prof-region"
+                  >Ort
+                  <span style="color: red">*</span>
+                </label>
+                <input type="text" name="prof-region" required />
+              </div>
+
+    <!--Upload documents-->
+              <div class="upload-document upload-document-cv">
+                <h3>Cv-dokument<span style="color: red">*</span></h3>
+                <p>Filnamn max 100 tecken och tillåtna filformat är: .doc .docx .rtf .pdf .jpg .gif</p>
+                <button>Välj fil</button> <span> <a href="#"> Skriv formulär i stället</a></span>
+              </div>
+
+              <div class="upload-document upload-document-cover-letter">
+                <h3>Personligt brev</h3>
+                <p>Filnamn max 100 tecken och tillåtna filformat är: .doc .docx .rtf .pdf .jpg .gif</p>
+                <button>Välj fil</button> <span> <a href="#"> Skriv formulär i stället</a></span>
+              </div>
+
+              <div class="upload-document upload-document-other">
+                <h3>Övriga dokument</h3>
+                <p>Filnamn max 100 tecken och tillåtna filformat är: .doc .docx .rtf .pdf .jpg .gif</p>
+                <button>Välj fil</button> 
+              </div>
+
+    <!--Radio options-->
+              <fieldset class="form-group radio-options">
+                <legend>I vilken utsträckning kan du kommunicera på svenska i tal och skrift?<span style="color: red">*</span></legend>
+                <div class="radio"> <label for="rad1">
+                    <input type="radio" name="radio-option-language" id="rad1" value="none" required>&nbspInga kunskaper i svenska
+                </label></div>
+                <div class="radio"> <label for="rad2">
+                    <input type="radio" name="radio-option-language" id="rad2" value="limited">&nbspBegränsade kunskaper i svenska
+                </label></div>
+                <div class="radio"> <label for="rad3">
+                    <input type="radio" name="radio-option-language" id="rad3" value="good">&nbspGoda kunskaper i svenska
+                </label></div>
+                <div class="radio"> <label for="rad4">
+                    <input type="radio" name="radio-option-language" id="rad4" value="fluent">&nbspKommunicerar flytande på svenska
+                </label></div>
+              </fieldset>
+
+    <!--Privacy policy-->
+              <div class="form-group privacy-policy"> <label for="labelterms">                <input type="checkbox" required>
+                Jag har tagit del av Folksams integritetspolicy <i class="fa-solid fa-asterisk" style="color: #c10000;"></i><a href="#">Läs mer här</a></label>
+            
+                <button type="submit" class="submit-button">Registrera</button>
+              </div>
+
+              <a class="return-link" href="#">Tillbaka till annonsen</a>
+            </form> 
+            </div>
+
+    <!--Footer-->
+            <div class="footer">
+                <h4 class="footer-heading">Hitta direkt - för dig som är...
+                </h4>
+
+                <ul class="site-footer-nav">
+                    <li class="site-footer-nav-item"><a href="#">Företagskund</a></li>
+                    <li class="site-footer-nav-item"><a href="#">Kooperativa arbetsgivare</a></li>
+                    <li class="site-footer-nav-item"><a href="#">Journalist</a></li>
+                    <li class="site-footer-nav-item"><a href="#">Jobb & Karriär</a></li>
+                    <li class="site-footer-nav-item"><a href="#">Hyresgäst</a></li>
+                    <li class="site-footer-nav-item"><a href="#">Samarbetspartner</a></li>
+                </ul>
+
+                <div class="site-footer-grid">
+                    <div class="footer-grid-item site-footer-grid-1">
+                        <h5>Försäkringar</h5>
+                        <li class="site-footer-grid-item"><a href="#">Bilförsäkring</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Hemförsäkring</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Barnförsäkring</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Villaförsäkring</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Alla försäkringar</a></li>
+
+                    </div>
+
+                    <div class="footer-grid-item site-footer-grid-2">
+                        <h5>Långsiktigt sparande</h5>
+                        <li class="site-footer-grid-item"><a href="#">Boka rådgivning</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Privat pensionssparande</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Tjänstepension</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Vårt fondutbud</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Flytta din pension</a></li>
+
+                    </div>
+
+                    <div class="footer-grid-item site-footer-grid-3">
+                        <h5>Tester och goda råd</h5>
+                        <li class="site-footer-grid-item"><a href="#">Alla våra tester</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Vår säkerhetesbutik</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Hus och hem</a></li>
+                        <li class="site-footer-grid-item"><a href="#">I trafiken</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Vår trafikforskning</a></li>
+
+                    </div>
+
+                    <div class="footer-grid-item site-footer-grid-4">
+                        <h5>Om oss</h5>
+                        <li class="site-footer-grid-item"><a href="#">Vi på Folksam</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Så styrs vi</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Jobb och karriär</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Vårt hållbarhetsarbete</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Nyhetsrum och IR</a></li>
+
+                    </div>
+
+                    <div class="footer-grid-item site-footer-grid-5">
+                        <h5>Kundservice</h5>
+                        <li class="site-footer-grid-item"><a href="#">Kontakta oss</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Mina sidor</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Anmäl en skada</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Beställ resebevis</a></li>
+                        <li class="site-footer-grid-item"><a href="#">Beställ grönt kort</a></li>
+
+                    </div>
+                </div>
+            </div>
+          </div>
+         
+    </div>
+        
+  </body>
+</html>
